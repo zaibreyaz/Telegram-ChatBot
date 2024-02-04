@@ -15,3 +15,6 @@ conda activate Telegram-ChatBot
 ```
 pip install -r requirements.txt
 ```
+```
+python teleChatBot.py
+```

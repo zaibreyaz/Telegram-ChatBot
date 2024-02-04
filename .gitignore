@@ -121,7 +121,7 @@ celerybeat.pid
 research
 
 # Environments
-telebotVenv
+# telebotVenv
 .env
 .venv
 env/

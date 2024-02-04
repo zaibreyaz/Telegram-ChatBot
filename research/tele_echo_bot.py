@@ -5,7 +5,6 @@ import os
 
 load_dotenv()
 API_TOKEN = os.getenv("TOKEN")
-# print(API_TOKEN)
 
 #configure logging
 logging.basicConfig(level=logging.INFO)
@@ -32,3 +31,4 @@ async def echo(message: types.Message):
 
 if __name__ == "__main__":
     executor.start_polling(dp, skip_updates=True)
+    
